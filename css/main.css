@@ -1,0 +1,161 @@
+/* 
+* Challenge Name    : عمل Gaming Profile بأكثر من قسم
+* Start Date        : 2-12-2021
+* End Date          : 2-12-2021
+* Contact Us        : mohammedmodather144@gmail.com
+* Git Hub url       : https://github.com/MohammedModather2020
+*/
+/* 
+* 1- General Style
+   1.0- Universal Element
+   1.1- Body Style
+* 2- Section Style
+   2.0- About Me
+   2.1- 
+   2.2- 
+* 3- Common Style 
+   3.0- Font Family
+   3.1- Container Section  
+   3.2- Background Secondary
+   3.3- Typegrapha Word 
+*/
+/* 1- General Style */
+/*  1.0- Universal Element */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* 1.1- Body Style */
+body{
+  font-family: 'Cairo', sans-serif;
+  background-color: #EEEEEE;
+}
+/* 2- Section Style */
+/*  2.0- About Me */
+.about-me{
+  width: 80%;
+  margin: auto;
+  margin-top: 2rem;
+}
+.about-me .container{
+  margin: .5rem;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+}
+.about-me .images{
+  position: relative;
+  display: flex;
+  margin-left: -24px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.about-me .images::after{
+  content: "";
+  position: absolute;
+  top: -16px;
+  height: 114%;
+  width: 1px;
+  background-color: #ddd;
+  right: 1rem;
+}
+.about-me .images img{
+  width: 150px;
+  height: 150px;
+  padding: .2rem;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+}
+.about-me .images .progress{
+  width: 75%;
+}
+.about-me .images .progress .title{
+  text-align: center;
+  margin-block: .5rem;
+  font-size: .9rem;
+}
+.about-me .images .progress .line{
+  border: 0;
+  height: 1rem;
+  width: 100%;
+  margin: auto;
+  position: relative;
+  background-color: #f6f6f6;
+  border-radius: .3rem;
+}
+.about-me .images .progress .line::before{
+  content: "";
+  position: absolute;
+  width: 80%;
+  height: 1rem;
+  left: 0;
+  background-color: #009688;
+}
+.about-me .images .progress .sub-title{
+  font-size: .7rem;
+  margin-top: .5rem;
+  text-align: center;
+  color: #777777;
+}
+.about-me .text{
+  position: relative;
+}
+.about-me .text .title{
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+.about-me .text .desc{
+  line-height: 1.8;
+  color: #777777;
+  font-size: .9rem;
+}
+.about-me .text .day-plays{
+  font-size: .9rem;
+  color: #777777;
+  font-weight: normal;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*3- Common Style  */
+/* 3.0- Font Family */
+@font-face{
+  src: url(../assets/fonts/DroidKufi-Regular.ttf);
+  font-family: 'DroidKufi-Regular';
+}
+/* 3.1- Container Section */
+.container{
+  background-color: #ffffff;
+  padding: 1rem;
+}
+/* 3.2- Background Secondary */
+.bg-secondary{
+  background-color: #607D8B;
+  color: #fff;
+}
+/* 3.3- Typegrapha Word */
+.tx-green{
+  color: #009688;
+}
+.tx-red{
+  color: #EA2D6A;
+}
+.tx-blue{
+  color: #6BABF4;
+}
+
