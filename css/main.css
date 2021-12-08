@@ -1,7 +1,8 @@
 /* 
 * Challenge Name    : عمل Gaming Profile بأكثر من قسم
 * Start Date        : 2-12-2021
-* End Date          : 2-12-2021
+* Last Update       : 8-12-2021
+* End Date          : 
 * Contact Us        : mohammedmodather144@gmail.com
 * Git Hub url       : https://github.com/MohammedModather2020
 */
@@ -11,7 +12,7 @@
    1.1- Body Style
 * 2- Section Style
    2.0- About Me
-   2.1- 
+   2.1- Points Log
    2.2- 
 * 3- Common Style 
    3.0- Font Family
@@ -19,27 +20,25 @@
    3.2- Background Secondary
    3.3- Typegrapha Word 
 */
-/* 1- General Style */
-/*  1.0- Universal Element */
+/** 1- General Style */
+/**  1.0- Universal Element */
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-/* 1.1- Body Style */
+/** 1.1- Body Style */
 body{
   font-family: 'Cairo', sans-serif;
   background-color: #EEEEEE;
 }
-/* 2- Section Style */
-/*  2.0- About Me */
+/** 2- Section Style */
+/**  2.0- About Me */
 .about-me{
-  width: 80%;
-  margin: auto;
   margin-top: 2rem;
+  margin-bottom: .8rem;
 }
 .about-me .container{
-  margin: .5rem;
   display: grid;
   grid-template-columns: 1fr 4fr;
 }
@@ -118,6 +117,22 @@ body{
   right: 0;
   bottom: 0;
 }
+.about-me .line{
+  width: 80%;
+  margin-inline: auto;
+  margin-top: .8rem;
+}
+/** 2.1- Points Log */
+.points {
+  margin-top: .5rem;
+}
+.points .log{
+  font-size: .9rem;
+  color: #888;
+}
+.points .log span{
+  font-weight: bold;
+}
 
 
 
@@ -129,10 +144,7 @@ body{
 
 
 
-
-
-
-/*3- Common Style  */
+/**3- Common Style  */
 /* 3.0- Font Family */
 @font-face{
   src: url(../assets/fonts/DroidKufi-Regular.ttf);
@@ -140,6 +152,8 @@ body{
 }
 /* 3.1- Container Section */
 .container{
+  width: 80%;
+  margin: auto;
   background-color: #ffffff;
   padding: 1rem;
 }
@@ -158,4 +172,21 @@ body{
 .tx-blue{
   color: #6BABF4;
 }
-
+/* 3.4- Header  */
+header .title{
+  font-size: 1.4rem;
+  width: 130px;
+  padding: .3rem;
+  margin-bottom: .6rem;
+}
+.line{
+  margin-block: .4rem ;
+  border: 0;
+  height: 1px;
+}
+.line-gray{
+  background-color: #f6f6f6;
+}
+.line-darkgray{
+  background-color: #e5e5e5;
+}
