@@ -13,7 +13,8 @@
 * 2- Section Style
    2.0- About Me
    2.1- Points Log
-   2.2- 
+   2.3- Trophies
+   2.4 Ladder News
 * 3- Common Style 
    3.0- Font Family
    3.1- Container Section  
@@ -121,7 +122,7 @@ body{
 }
 /** 2.1- Points Log */
 .points {
-  margin-top: .5rem;
+  margin-top: .8rem;
 }
 .points .log{
   font-size: .9rem;
@@ -132,7 +133,7 @@ body{
 }
 /** 2.3- Trophies  */
 .trophies{
-  margin-top: .5rem;
+  margin-top: .8rem;
 }
 .trophies .items{
   margin-top: .5rem;
@@ -154,8 +155,17 @@ body{
 .trophies .items .item.opacity{
   opacity: .2;
 }
-
-
+/** 2.4 Ladder News  */
+.ladder-news{
+  margin-top: .8rem;
+}
+.ladder-news .desc{
+  font-size: .9rem;
+  color: #777777;
+}
+.ladder-news .desc span{
+  font-weight: bold;
+}
 
 
 
