@@ -130,6 +130,38 @@ body{
 .points .log span{
   font-weight: bold;
 }
+/** 2.3- Trophies  */
+.trophies{
+  margin-top: .5rem;
+}
+.trophies .items{
+  margin-top: .5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.trophies .items .item{
+  width: 70px;
+  height: 70px;
+}
+.trophies .items .item img{
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+}
+.trophies .items .item.opacity{
+  opacity: .2;
+}
+
+
+
+
+
+
+
+
 
 
 
@@ -172,8 +204,9 @@ body{
 /** 3.4- Header  */
 header .title{
   font-size: 1.4rem;
-  width: 130px;
-  padding: .3rem;
+  display: inline-block;
+  padding-block: .2rem;
+  padding-inline: .5rem 1rem;
   margin-bottom: .6rem;
 }
 /** 3.5- Line horizontal */
