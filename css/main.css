@@ -17,12 +17,11 @@
    2.4 Ladder News
    2.5- Powers 
 * 3- Common Style 
-   3.0- Font Family
-   3.1- Container Section  
-   3.2- Background Secondary
-   3.3- Typegrapha Word 
-   3.4- Header
-   3.5- Line horizontal
+   3.0- Container Section  
+   3.1- Background Secondary
+   3.2- Typegrapha Word 
+   3.3- Header
+   3.4- Line horizontal
 */
 /** 1- General Style */
 /**  1.0- Universal Element */
@@ -179,24 +178,19 @@ body{
   font-size: .9rem;
 }
 /**3- Common Style  */
-/** 3.0- Font Family */
-@font-face{
-  src: url(../assets/fonts/DroidKufi-Regular.ttf);
-  font-family: 'DroidKufi-Regular';
-}
-/** 3.1- Container Section */
+/** 3.0- Container Section */
 .container{
   width: 80%;
   margin: auto;
   background-color: #ffffff;
   padding: 1rem;
 }
-/** 3.2- Background Secondary */
+/** 3.1- Background Secondary */
 .bg-secondary{
   background-color: #607D8B;
   color: #fff;
 }
-/** 3.3- Typegrapha Word */
+/** 3.2- Typegrapha Word */
 .tx-green{
   color: #009688;
 }
@@ -206,7 +200,7 @@ body{
 .tx-blue{
   color: #6BABF4;
 }
-/** 3.4- Header  */
+/** 3.3- Header  */
 header .title{
   font-size: 1.2rem;
   display: inline-block;
@@ -214,7 +208,7 @@ header .title{
   padding-inline: .5rem 1rem;
   margin-bottom: .6rem;
 }
-/** 3.5- Line horizontal */
+/** 3.4- Line horizontal */
 .line{
   margin-block: .4rem ;
   border: 0;
