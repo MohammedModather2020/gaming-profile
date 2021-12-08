@@ -19,6 +19,8 @@
    3.1- Container Section  
    3.2- Background Secondary
    3.3- Typegrapha Word 
+   3.4- Header
+   3.5- Line horizontal
 */
 /** 1- General Style */
 /**  1.0- Universal Element */
@@ -117,11 +119,6 @@ body{
   right: 0;
   bottom: 0;
 }
-.about-me .line{
-  width: 80%;
-  margin-inline: auto;
-  margin-top: .8rem;
-}
 /** 2.1- Points Log */
 .points {
   margin-top: .5rem;
@@ -145,24 +142,24 @@ body{
 
 
 /**3- Common Style  */
-/* 3.0- Font Family */
+/** 3.0- Font Family */
 @font-face{
   src: url(../assets/fonts/DroidKufi-Regular.ttf);
   font-family: 'DroidKufi-Regular';
 }
-/* 3.1- Container Section */
+/** 3.1- Container Section */
 .container{
   width: 80%;
   margin: auto;
   background-color: #ffffff;
   padding: 1rem;
 }
-/* 3.2- Background Secondary */
+/** 3.2- Background Secondary */
 .bg-secondary{
   background-color: #607D8B;
   color: #fff;
 }
-/* 3.3- Typegrapha Word */
+/** 3.3- Typegrapha Word */
 .tx-green{
   color: #009688;
 }
@@ -172,13 +169,14 @@ body{
 .tx-blue{
   color: #6BABF4;
 }
-/* 3.4- Header  */
+/** 3.4- Header  */
 header .title{
   font-size: 1.4rem;
   width: 130px;
   padding: .3rem;
   margin-bottom: .6rem;
 }
+/** 3.5- Line horizontal */
 .line{
   margin-block: .4rem ;
   border: 0;
@@ -189,4 +187,9 @@ header .title{
 }
 .line-darkgray{
   background-color: #e5e5e5;
+}
+.line-w-80{
+  width: 80%;
+  margin-inline: auto;
+  margin-top: .8rem;
 }
