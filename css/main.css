@@ -1,8 +1,8 @@
 /* 
 * Challenge Name    : عمل Gaming Profile بأكثر من قسم
 * Start Date        : 2-12-2021
-* Last Update       : 8-12-2021
-* End Date          : 
+* Last Update       : 8-12-2021 11:00 AM
+* End Date          : 8-12-2021 :11:45 AM
 * Contact Us        : mohammedmodather144@gmail.com
 * Git Hub url       : https://github.com/MohammedModather2020
 */
@@ -15,6 +15,7 @@
    2.1- Points Log
    2.3- Trophies
    2.4 Ladder News
+   2.5- Powers 
 * 3- Common Style 
    3.0- Font Family
    3.1- Container Section  
@@ -163,26 +164,20 @@ body{
   font-size: .9rem;
   color: #777777;
 }
-.ladder-news .desc span{
-  font-weight: bold;
+/** 2.5- Powers */
+.powers{
+  margin-top: .8rem;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.powers .items{
+  list-style: none;
+}
+.powers .items .item{
+  display: flex;
+  justify-content: space-between;
+  margin-block: .4rem;
+  color: #777777;
+  font-size: .9rem;
+}
 /**3- Common Style  */
 /** 3.0- Font Family */
 @font-face{
@@ -213,7 +208,7 @@ body{
 }
 /** 3.4- Header  */
 header .title{
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   display: inline-block;
   padding-block: .2rem;
   padding-inline: .5rem 1rem;
